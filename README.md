@@ -1,6 +1,7 @@
 # Bot Saves Princess
 
 1. **https://www.hackerrank.com/challenges/saveprincess** - Princess Peach is trapped in one of the four corners of a square grid. You are in the center of the grid and can move one step at a time in any of the four directions. Can you rescue the princess?
+
 The first line contains an odd integer N (3 <= N < 100) denoting the size of the grid. This is followed by an NxN grid. Each cell is denoted by ‘-‘ (ascii value: 45). The bot position is denoted by ‘m‘ and the princess position is denoted by ‘p‘.
 
 2. **https://www.hackerrank.com/challenges/saveprincess2** - In this version of "Bot saves princess", Princess Peach and bot‘s position are randomly set. Can you save the princess?
@@ -33,7 +34,9 @@ bundle install
 Please run command:
 
 ```
-rspec
+rspec spec/bot_save_princess_test.rb
+rspec spec/bot_next_move_test.rb
+rspec spec/grid_test.rb
 ```
 
 ### Break down into end to end tests
